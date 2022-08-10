@@ -22,3 +22,35 @@
 img {
     margin-left: 8%;
 } */
+
+#container{
+    width: 800px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.origin{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 40px;
+}
+
+.origin > div{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#movex:hover{
+    transform: translateX(50px); /* x축으로(가로) 50px 이동 */
+}
+
+#movey:hover{
+    transform: translateY(50px); /* Y축으로(세로) 50px 이동 */
+}
+
+#movexy:hover{
+    transform: translate(10px, 20px); /* x축으로(가로) 10px 이동, Y축으로(세로) ㅈ0px 이동 */
+}

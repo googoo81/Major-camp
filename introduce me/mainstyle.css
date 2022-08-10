@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body{
     margin: 0%;
     padding: 0%;
@@ -12,10 +14,12 @@ body{
     background-color: white;
     height: 58px;
     border: 1.5px solid #EEEDED;
+    z-index: 100;
+    opacity: 0.8;
 }
 
 .home{
-    width: 58px;
+    width: 56px;
     position: absolute;
 }
 
@@ -58,6 +62,19 @@ body{
     margin-top: 6%;
     margin-left: 17%;
     width: 1000px;
+    animation: ani_projects 2.5s;
+    animation-duration: alternate;
+}
+
+@keyframes ani_projects {
+    from {
+        opacity: 0;
+        margin-top: -50%;
+    }
+    to{
+        opacity: 1;
+        margin-bottom: 60%;
+    }
 }
 
 .numberImg{
@@ -67,37 +84,64 @@ body{
     margin-bottom: 1%;
 }
 
+section{
+    justify-content: space-between;
+    display: flex;
+}
+
+.sa{
+    opacity: 1;
+    transition: all .100s;
+}
+
 .oneBox{
+    position: sticky;
     background-color: white;
+    display: block;
     width: 1200px;
     margin-left: 10%;
     height: 500px;
+    margin-bottom: 5%;
+    transform: translate(0, 10px);
 }
 
 .twoBox{
+    position: sticky;
     background-color: white;
+    display: block;
     width: 1200px;
     margin-left: 10%;
     height: 500px;
     background-image: url('https://artbylance.com/wp-content/uploads/2020/04/ray-sketch.jpg');
     background-size: 1200px;
     background-position: 1%;
+    margin-bottom: 5%;
+    transform: translate(0, 10px);
 }
 
 .threeBox{
+    position: sticky;
     background-color: white;
+    display: block;
     width: 1200px;
     margin-left: 10%;
     height: 500px;
     background-image: url('https://t3.ftcdn.net/jpg/04/33/74/02/360_F_433740233_HK0dYo0qqEE0UrGC37ORZyCTWgeklcpt.jpg');
     background-size: 1200px;
     background-position-x: 110px ;
+    margin-bottom: 5%;
+    transform: translate(0, 10px);
+}
+
+.sa.show{
+    opacity: 1;
+
 }
 
 .nextPage{
     width: 300px;
     margin-left: 80%;
-    margin-top: 3%;
+    margin-top: 0%;
 }
 /* ~ mainsource */
 
@@ -119,4 +163,3 @@ body{
     height: 350px;
     margin-bottom: 0%;
 }
-

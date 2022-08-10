@@ -1,0 +1,25 @@
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .slide-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    position: absolute;
+    display: none;
+    z-index: 0;
+  }
+  
+  .slide.enabled {
+    display: block;
+  }
