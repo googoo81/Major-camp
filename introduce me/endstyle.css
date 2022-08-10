@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #EEEDED;
+}
+
+
+/* topline */
+.topline{
+    position: fixed;
+    width: 1540px;
+    background-color: white;
+    height: 58px;
+    border: 1.5px solid #EEEDED;
+
+}
+
+.home{
+    width: 58px;
+    position: absolute;
+}
+
+.title{
+    width: 350px;
+    margin-top: 0.4%;
+    font-size: 20px;
+    margin-left: 37%;
+    position: absolute;
+}
+
+.source{
+    margin-left: 80%;
+    margin-top: 28px;
+    width: 230px;
+    position: absolute;
+}
+
+.github{
+    width: 30px;
+    position: absolute;
+    margin-left: 95.5%;
+    margin-top: 12px;
+}
+
+.insta{
+    margin-top: 13px;
+    z-index: 100;
+    position:absolute;
+    z-index: 1000;
+    width: 30px;
+    margin-left: 92.5%;
+}
+/* ~topline */
+
+.endBox{
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
+.endTitle{
+    width: 700px;
+    margin-left: 10%;
+}

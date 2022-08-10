@@ -1,0 +1,122 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #EEEDED;
+}
+
+
+/* topline */
+.topline{
+    position: fixed;
+    width: 1540px;
+    background-color: white;
+    height: 58px;
+    border: 1.5px solid #EEEDED;
+}
+
+.home{
+    width: 58px;
+    position: absolute;
+}
+
+.title{
+    width: 350px;
+    margin-top: 0.4%;
+    font-size: 20px;
+    margin-left: 37%;
+    position: absolute;
+}
+
+.source{
+    margin-left: 80%;
+    margin-top: 28px;
+    width: 230px;
+    position: absolute;
+}
+
+.github{
+    width: 30px;
+    position: absolute;
+    margin-left: 95.5%;
+    margin-top: 12px;
+}
+
+.insta{
+    margin-top: 13px;
+    z-index: 100;
+    position:absolute;
+    z-index: 1000;
+    width: 30px;
+    margin-left: 92.5%;
+}
+/* ~ topline */
+
+
+
+/* main source */
+.guys{
+    margin-top: 6%;
+    margin-left: 17%;
+    width: 1000px;
+}
+
+.numberImg{
+    margin-left: 10%;
+    width: 100px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.oneBox{
+    background-color: white;
+    width: 1200px;
+    margin-left: 10%;
+    height: 500px;
+}
+
+.twoBox{
+    background-color: white;
+    width: 1200px;
+    margin-left: 10%;
+    height: 500px;
+    background-image: url('https://artbylance.com/wp-content/uploads/2020/04/ray-sketch.jpg');
+    background-size: 1200px;
+    background-position: 1%;
+}
+
+.threeBox{
+    background-color: white;
+    width: 1200px;
+    margin-left: 10%;
+    height: 500px;
+    background-image: url('https://t3.ftcdn.net/jpg/04/33/74/02/360_F_433740233_HK0dYo0qqEE0UrGC37ORZyCTWgeklcpt.jpg');
+    background-size: 1200px;
+    background-position-x: 110px ;
+}
+
+.nextPage{
+    width: 300px;
+    margin-left: 80%;
+    margin-top: 3%;
+}
+/* ~ mainsource */
+
+/* text */
+#fo{
+    font-family: 'Nanum Pen Script', Jeju Gothic;
+    font-size:24px;
+    color: aliceblue;
+}
+
+.font{
+    font-family: 'Nanum Pen Script', Jeju Gothic;
+    font-size:24px;
+}
+
+.handImg{
+    margin-top: 21px;
+    width: 1200px;
+    height: 350px;
+    margin-bottom: 0%;
+}
+

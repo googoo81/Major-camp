@@ -1,0 +1,17 @@
+body{
+    background-color: #EEEDED;
+}
+
+.hyper{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.logo{
+    width: 700px;
+}
+
+#click{
+    margin-left: 45%;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
