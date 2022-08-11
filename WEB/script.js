@@ -27,7 +27,7 @@ else {
     alert("홀수입니다.");
 } */
 
-var num = parseInt(prompt("2단에서 100단 사이의 단을 입력해주세요"));
+/* var num = parseInt(prompt("2단에서 100단 사이의 단을 입력해주세요"));
 
 if(num < 9){
     for(var i = 1;i<10;i++)
@@ -40,4 +40,18 @@ else{
     {
         document.write(num  + "" + i + "=" + num + i + "<br>");
     }
-}
+} */
+
+/* function altf4(){
+    alert('환영합니다.');
+} */
+
+var cover =  document.getElementById("cover");
+
+cover.addEventListener("mouseover", () => {
+    cover.src = "YENAtwo.jpg";
+});
+
+cover.addEventListener("mouseout", () => {
+    cover.src = "YENAone.jpg";
+});
