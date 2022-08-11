@@ -1,4 +1,4 @@
-const saTriggerMargin = 300;
+const saTriggerMargin = 5;
 const saElementList = document.querySelectorAll('.sa');
 
 const saFunc = function() {

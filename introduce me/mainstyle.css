@@ -135,7 +135,7 @@ section{
 
 .sa.show{
     opacity: 1;
-
+    transform: none;
 }
 
 .nextPage{
